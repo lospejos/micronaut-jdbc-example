@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: notes
+---
+testFramework: spek
+sourceLanguage: kotlin
