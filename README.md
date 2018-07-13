@@ -20,6 +20,6 @@ java.lang.VerifyError: Cannot inherit from final class
 
 ## Testing
 
-Working version, manual transaction handling: `curl http://localhost:8080/manual`
+Working version, manual transaction handling: `curl http://localhost:8080/manual` - the counter increases with every request
 
-Non-working version, @Transactional transaction handling: `curl http://localhost:8080/transactional`
+Non-working version, @Transactional transaction handling: `curl http://localhost:8080/transactional` - the counter doesn't increase, which means the transaction doesn't get committed
